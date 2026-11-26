@@ -1,0 +1,6 @@
+read_verilog 2phase_handshake.v
+hierarchy -top p2_handshake
+proc
+opt
+stat
+show
