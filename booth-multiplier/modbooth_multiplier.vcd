@@ -1,0 +1,97 @@
+$date
+	Sun Oct 25 06:45:03 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module booth_multiplier_tb $end
+$var wire 64 ! product [63:0] $end
+$var reg 32 " multiplicand [31:0] $end
+$var reg 32 # multiplier [31:0] $end
+$scope module uut $end
+$var wire 32 $ multiplicand [31:0] $end
+$var wire 32 % multiplier [31:0] $end
+$var reg 35 & Accumulator [34:0] $end
+$var reg 34 ' booth_multiplier [33:0] $end
+$var reg 35 ( ext_multiplicand [34:0] $end
+$var reg 64 ) product [63:0] $end
+$var reg 1 * ref_bit $end
+$var integer 32 + i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10001 +
+0*
+b1111 )
+b101 (
+b1111 '
+b0 &
+b11 %
+b101 $
+b11 #
+b101 "
+b1111 !
+$end
+#10000
+b1011001001 !
+b1011001001 )
+0*
+b0 &
+b10001 +
+b10111 (
+b1011001001 '
+b11111 #
+b11111 %
+b10111 "
+b10111 $
+#20000
+b110010 !
+b110010 )
+0*
+b0 &
+b10001 +
+b101 (
+b110010 '
+b1010 #
+b1010 %
+b101 "
+b101 $
+#30000
+b11010000001 !
+b11010000001 )
+0*
+b0 &
+b10001 +
+b11010000001 '
+b101001101 #
+b101001101 %
+#40000
+b110001 !
+b110001 )
+0*
+b0 &
+b10001 +
+b111 (
+b110001 '
+b111 #
+b111 %
+b111 "
+b111 $
+#50000
+b1111111111111111111111111111101100000000000000000000000000000110 !
+b1111111111111111111111111111101100000000000000000000000000000110 )
+0*
+b111111111111111111111111111110 &
+b10001 +
+b11111111111111111111111111111110 (
+b1100000000000000000000000000000110 '
+b11111111111111111111111111111101 #
+b11111111111111111111111111111101 %
+b11111111111111111111111111111110 "
+b11111111111111111111111111111110 $
+#60000
